@@ -15,7 +15,7 @@ class MusicPlay extends StatelessWidget {
     return  Expanded(child: FlatButton(
               color: color,
               onPressed: (){
-               audioPlayerSerial(1);
+               audioPlayerSerial(inputNumber);
               }, child: Text('Click here'),
               ),
               );
